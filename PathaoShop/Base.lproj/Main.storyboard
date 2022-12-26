@@ -330,7 +330,7 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HZz-8X-j2H">
-                                <rect key="frame" x="8" y="91" width="390" height="719"/>
+                                <rect key="frame" x="0.0" y="91" width="390" height="719"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f2X-9o-tre">
                                     <size key="itemSize" width="190" height="229"/>
@@ -450,10 +450,10 @@
                         <viewLayoutGuide key="safeArea" id="JzB-YC-ZDo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="HZz-8X-j2H" firstAttribute="leading" secondItem="JzB-YC-ZDo" secondAttribute="leading" constant="8" id="0Ph-O8-NuH"/>
+                            <constraint firstItem="HZz-8X-j2H" firstAttribute="leading" secondItem="JzB-YC-ZDo" secondAttribute="leading" id="0Ph-O8-NuH"/>
                             <constraint firstAttribute="trailing" secondItem="gce-ei-mKY" secondAttribute="trailing" id="P0c-91-p5K"/>
                             <constraint firstItem="HZz-8X-j2H" firstAttribute="bottom" secondItem="JzB-YC-ZDo" secondAttribute="bottom" id="b65-yz-vuJ"/>
-                            <constraint firstItem="HZz-8X-j2H" firstAttribute="trailing" secondItem="JzB-YC-ZDo" secondAttribute="trailing" constant="8" id="d9d-Hn-gg8"/>
+                            <constraint firstItem="HZz-8X-j2H" firstAttribute="trailing" secondItem="JzB-YC-ZDo" secondAttribute="trailing" id="d9d-Hn-gg8"/>
                             <constraint firstItem="HZz-8X-j2H" firstAttribute="top" secondItem="gce-ei-mKY" secondAttribute="bottom" id="diX-2v-MTE"/>
                             <constraint firstItem="gce-ei-mKY" firstAttribute="leading" secondItem="ICB-18-p7E" secondAttribute="leading" id="pIH-ff-JgV"/>
                             <constraint firstItem="gce-ei-mKY" firstAttribute="top" secondItem="JzB-YC-ZDo" secondAttribute="top" id="xcU-ee-Aad"/>
