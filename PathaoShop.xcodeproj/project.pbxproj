@@ -32,8 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F30DD852E68DA99650E0931 /* Pods_PathaoShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PathaoShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		488AB468DFB24AD7C8ACD5D6 /* Pods-PathaoShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PathaoShop.release.xcconfig"; path = "Target Support Files/Pods-PathaoShop/Pods-PathaoShop.release.xcconfig"; sourceTree = "<group>"; };
 		527EAF332958899E00FAE6AD /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		527EAF362958936E00FAE6AD /* CoreDataDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDB.xcdatamodel; sourceTree = "<group>"; };
 		527EAF4D2959713D00FAE6AD /* Cart+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart+Extension.swift"; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 		52B309C929540F1400AF0ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B309CC29540F1400AF0ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B309CE29540F1400AF0ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A226CFEC81EAE90C37F2E0F /* Pods-PathaoShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PathaoShop.debug.xcconfig"; path = "Target Support Files/Pods-PathaoShop/Pods-PathaoShop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +164,6 @@
 			children = (
 				52B309BF29540F1300AF0ACE /* PathaoShop */,
 				52B309BE29540F1300AF0ACE /* Products */,
-				707D214B08AADFFE2D283D6E /* Pods */,
-				84049CB726E4150DFC34CC6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,23 +193,6 @@
 				52B309CE29540F1400AF0ACE /* Info.plist */,
 			);
 			path = PathaoShop;
-			sourceTree = "<group>";
-		};
-		707D214B08AADFFE2D283D6E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5A226CFEC81EAE90C37F2E0F /* Pods-PathaoShop.debug.xcconfig */,
-				488AB468DFB24AD7C8ACD5D6 /* Pods-PathaoShop.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		84049CB726E4150DFC34CC6F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0F30DD852E68DA99650E0931 /* Pods_PathaoShop.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
