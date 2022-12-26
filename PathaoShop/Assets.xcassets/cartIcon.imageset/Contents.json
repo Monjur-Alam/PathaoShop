@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "commerce-and-shopping.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
